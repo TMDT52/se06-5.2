@@ -1,10 +1,10 @@
-# h1 B�O C�O TU?N 1:
+# h1 BÁO CÁO TUẦN 1
 
-## T?p h?p nh�m v� t�m hi?u v? � tu?ng l�m vi?c
+## Tập hợp nhóm và tìm hiểu Phương pháp làm việc với ý tưởng
 
-* T?t c? th�nh vi�n nh�m hi?u r� kh�i ni?m thuong m?i di?n t? 
+* Tất cả thành viên nhóm tìm hiểu về Khái niệm thương mại điện tử
 
-* T�m hi?u m?t s? m� ngu?n m? v? Thuong M?i di?n t? 
+* Tìm hiểu và tham khảo các mã nguồn mở
 
 
-* Vi?t ra m?c ti�u tu?n th? 2 l� t�m ra v� th?ng nh?t s?n ph?m l�m vi?c chung
+* Đặt ra mục tiêu của tuần thứ 2
