@@ -6,10 +6,12 @@ class Order extends MY_Controller {
 	{
 		parent::__construct();
 		
+		
+
 		$this->load->library('form_validation');
 		$this->load->helper('form');
 	}
-// dat hang
+
 	public function index()
 	{
 		$carts = $this->cart->contents();

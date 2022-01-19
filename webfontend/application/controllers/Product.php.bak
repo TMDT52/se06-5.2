@@ -15,47 +15,6 @@ class Product extends MY_Controller {
 		$this->load->view('site/layoutsub',$this->data);
 	}
 	
-	public function view()
-	{
-		$id = $this->uri->rsegment(3);
-		$product = $this->product_model->get_info($id);
-		if (empty($product)) {
-			$this->session->set_flashdata('message_fail', 'Sản phẩm không tồn tại');
-			redirect(base_url());
-		}
-		$this->data['product']=$product;
-		$catalog_product = $this->catalog_model->get_info($product->catalog_id);
-		$this->data['catalog_product']=$catalog_product;
-
-		$view = $this->session->userdata('session_view');
-		$view = (!is_array($view)) ? array() : $view;
-		if (!isset($view[$id])) {
-			$view[$id]=TRUE;
-			$this->session->set_userdata('session_view',$view);
-			$data = array();
-			$data['view'] = $product->view + 1;
-			$this->product_model->update($id,$data);
-		}
-		
-
-		$image_list = json_decode($product->image_list);
-		$this->data['image_list'] = $image_list;
-		
-		$input = array();
-		$input['where'] = array('catalog_id' => $product->catalog_id);
-		$input['limit'] = array('4','0');
-		$productsub = $this->product_model->get_list($input);
-		$this->data['productsub']=$productsub;
-		
-		$input = array();
-		$input['order'] = array('buyed', 'DESC');
-		$input['limit'] = array('4','0');
-		$productview = $this->product_model->get_list($input);
-		$this->data['productview']=$productview;
-		
-		$this->data['temp']='site/product/view';
-		$this->load->view('site/layoutsub',$this->data);
-	}
 	
 	public function catalog()
 	{
