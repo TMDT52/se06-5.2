@@ -15,7 +15,6 @@
 		            zoomType: 'standard',
 		    });
 		});
-		
 		</script>
 		<!-- end zoom image -->
 		<script type="text/javascript">
@@ -47,7 +46,6 @@
 			        }
 			      });
 			});
-			
 		</script>
 		<!--End Raty -->
 
