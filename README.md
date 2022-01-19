@@ -25,14 +25,15 @@
 ## 2. Cài đặt
 ### a. Cài đặt XAMPP
 ### b. Clone Project
-
-
-
-
+### c. Import database từ file webshop.sql thuộc thư mục database/webshop
+### d. Chuyển project vào thư mục htdocs/xampp
+### e. Khởi chạy Apache và MySQL của Xampp. Truy cập vào đường dẫn "locahost/webshop/" để truy cập vào trang web bán hàng
+### f. Tài khoản/mật khẩu để truy cập vào trang dành cho admin là: admin@gmail.com/1234
 
 # III. Công việc triển khai
 * Tìm hiểu về HTML và CSS cơ bản.
 * Tìm hiểu về Boostrap cơ bản.
+* Tìm hiểu về mô hình MVC.
 * Tham khảo 1 số mã nguồn mở về TMDT
 * Phân chia công việc cụ thể cho từng thành viên nhóm
 * Báo cáo tiến độ thường xuyên và cùng nhau trao đổi về dự án
