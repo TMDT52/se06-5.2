@@ -54,7 +54,7 @@
 					      <button type="submit" class="btn btn-success">Đăng nhập</button>
 					    </div>
 					    <div class="col-sm-offset-1 col-sm-2">
-					      <a href="<?php echo base_url('dang-ky'); ?>">Đăng kí</a>
+					      <a href="<?php echo base_url('dang-ky'); ?>">Đăng kí ngay</a>
 					    </div>
 					  </div>
 					</form>				  	
