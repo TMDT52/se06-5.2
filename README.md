@@ -30,10 +30,7 @@ https://github.com/TMDT52/se06-5.2.git
 ```
 ### c. Chuyển project vào thư mục htdocs
 ### d. Chạy apache, truy cập vào link(http://localhost/se06-nhom5.2)
-### e. Thêm config vào .htaccess
-### f. Thêm config vào wp-config.php
-### g. Sau khi cài đặt xong cơ bản, tìm, cài đặt và kích hoạt plugin All In One WP Mirgrations
-Vào plugin vừa cài, import file tải về ở bước b. Reload trang. Đăng nhập với
+### e. Đăng nhập vào trang admin
 username/password: admin/admin@123
 
 # III. Công việc triển khai
