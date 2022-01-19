@@ -21,9 +21,8 @@
 		  				<?php }else{ ?>
 							<p><span class='price text-right'><?php echo number_format($value->price); ?> VNĐ</span></p>
 		  				<?php	} ?>
-						<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua"><?php echo $value->buyed; ?></p>
+						<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượt đánh giá"><?php echo $value->rate_count; ?></p>
 						<a href="<?php echo base_url('cart/add/'.$value->id); ?>"><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
-						
 		  			</div>
 				</div>
 			<?php } ?>	
