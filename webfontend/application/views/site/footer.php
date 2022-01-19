@@ -3,10 +3,10 @@
 				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
 				    <div class="footer-info">            
 				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-				        <a href="" title=""><strong>VỀ CHÚNG TÔI</strong></a>
-				          <li> <a href="#" title="">Giới thiệu về shop</a></li> 
-				          <li> <a href="#" title="">Các mức chế tài vi phạm</a></li> 
-				          <li> <a href="#" title="">Quy chế hoạt động</a></li> 
+				        <a title=""><strong>VỀ CHÚNG TÔI</strong></a>
+				          <li> <a href="https://www.facebook.com/tienson68" title="">Khuất Đình Sơn</a></li> 
+				          <li> <a href="https://www.facebook.com/sotam.mayman" title="">Lương Tuấn Vũ</a></li> 
+				          <li> <a href="https://www.facebook.com/thuanvu2505" title="">Vũ Như Thuần</a></li> 
 				      </div>
 				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				        <a href="" title=""><strong>DÀNH CHO NGƯỜI MUA</strong></a>
@@ -18,21 +18,21 @@
 				      </div>
 				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				        <a href="" title=""><strong>DÀNH CHO NGƯỜI BÁN</strong></a>                
-				          <li> <a href="#" title="">Mở shop trên Sendo</a></li> 
+				          <li> <a href="#" title="">Liên kết với shop chúng tôi</a></li> 
 				          <li> <a href="#" title="">Quy định đối với người bán</a></li> 
 				          <li> <a href="#" title="">Chính sách bán hàng</a></li> 
 				      </div>
 				    </div>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-				    <p>Hỗ trợ thanh toán  <img src="http://localhost/myshop/public/images/pay.png" alt="" style="padding-left: 25px;"> </p>
+				    <p>Hỗ trợ thanh toán  <img src="http://localhost/webshop/public/upload/pay.jpg" style="width: 10%"> </p>
 				    <div class="fi-left pull-left">
 				      <p><small>Tư vẫn miễn phí (24/7)</small></p> 
-				      <strong>1800 3333</strong>
+				      <strong>0387 840 519</strong>
 				    </div>
 				     <div class="fi-right pull-right">
 				      <p><small>Góp ý, phản ánh(8h00 - 22h00)</small></p>
-				      <strong>1800 3333</strong>
+				      <strong>0387 840 519</strong>
 				    </div>
 				  </div>
 			</div>
@@ -41,16 +41,16 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
 					<address>
-					  <strong>    SHOP thời trang Ngọc Lan</strong><br>
-					  <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Địa chỉ: Kỳ Sơn - Thủy Nguyên - Hải Phòng<br>
-					  <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Điện thoại: 01215345336<br>
-					  Copyright ©2017 - Design by ---
+					  <strong>    SHOP thời trang SVT</strong><br>
+					  <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Địa chỉ: Chợ Cốm, Mễ Trì Hạ, P. Mễ Trì, Q. Nam Từ Liêm, Tp. Hà Nội<br>
+					  <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Điện thoại: 0387 840 519<br>
+					  Copyright ©2021 - Design by SE06-5.2
 					</address>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-right">
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/facebook.png" alt=""></a>
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/twitter.png" alt=""></a>
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/google.png" alt=""></a>
+					<a href="https://www.facebook.com/tienson68"><img src="<?php echo base_url(); ?>upload/icon/facebook.png" alt=""></a>
+					<a href="https://www.facebook.com/tienson68"><img src="<?php echo base_url(); ?>upload/icon/twitter.png" alt=""></a>
+					<a href="https://www.facebook.com/tienson68"><img src="<?php echo base_url(); ?>upload/icon/google.png" alt=""></a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
