@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 	<?php $this->load->view('site/head',$this->data); ?>
 </head>
 <body>
-	
 	<div class="container">
 		<?php $this->load->view('site/header',$this->data); ?>
 
@@ -24,19 +24,27 @@
 				  			 <h3 style="color: red"><?php echo form_error('login'); ?></h3>
 				  		</div>
 					  <div class="form-group">
-					    <label for="inputEmail3" class=" col-sm-offset-2 col-sm-2 control-label">Email</label>
+					    <label for="inputEmail3" class=" col-sm-offset-2 col-sm-2 control-label">Email     <i class="fas fa-envelope-square"></i></label>
+						
 					    <div class="col-sm-4">
-					      <input type="email" class="form-control" id="inputEmail3" placeholder="" name="email" value="<?php echo set_value('email'); ?>">
+					      <input type="email" class="form-control" id="inputEmail3" placeholder="Nhập Email" name="email" value="<?php echo set_value('email'); ?>">
 					    </div>
 						<div class="col-sm-3">
 					    	<?php echo form_error('email'); ?>
 						</div>
 					  </div>
 					  <div class="form-group">
-					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Mật khẩu</label>
+					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Mật khẩu     
+							<i class="far fa-key"></i>
+						</label>
+						
 					    <div class="col-sm-4">
-					      <input type="password" class="form-control" id="inputEmail3" placeholder="" name="password">
+					      <input type="password" class="form-control" id="inputEmail3" placeholder="Nhập mật khẩu" name="password"> 
+						  <div id="eye">
+								<i class="far fa-eye"></i>
+							</div>
 					    </div>
+						
 					    <div class="col-sm-3">
 					    	<?php echo form_error('password'); ?>
 						</div>
@@ -58,5 +66,7 @@
 		<?php $this->load->view('site/footer',$this->data); ?>
 	</div>
     <script src="<?php echo public_url('site/'); ?>bootstrap/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="public/js/pass.js"></script>
 </body>
 </html>
