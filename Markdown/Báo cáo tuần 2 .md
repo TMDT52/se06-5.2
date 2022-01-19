@@ -7,5 +7,10 @@
 
 * Tìm hiểu về HTML và CSS cơ bản.
 
+- 1)     Cài webserver (xampp) trên windows (hoặc ubuntu, linux,…)
+
+
+- 2)     Tạo một folder web /day01 trên webroot của web server
+
 
 * Đặt ra mục tiêu của tuần thứ 3
