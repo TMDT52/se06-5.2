@@ -3,6 +3,7 @@
 <head>
 	<?php $this->load->view('site/head',$this->data); ?>
 </head>
+
 <body>
 	<div class="container">
 		<?php $this->load->view('site/header',$this->data); ?>

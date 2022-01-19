@@ -16,6 +16,7 @@
 		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearpadding">
 		  		<h3>Tổng số tiền thanh toán là: <?php echo number_format($total_amount); ?> VNĐ</h3>
 		  		<form enctype="multipart/form-data" method="post" >
+		  			
 			  		<table class="table">
 					  <tbody>
 					  	<tr>

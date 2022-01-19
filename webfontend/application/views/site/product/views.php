@@ -4,7 +4,6 @@
 		  <li><a href="<?php echo base_url(); ?>"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Trang chủ</a></li>
 		  <li class="active">Sản phẩm xem nhiều</li>
 		</ol>
-
 		<div class="panel panel-info">
 		  <div class="panel-heading">
 		    <h3 class="panel-title">Sản phẩm xem nhiều</h3>

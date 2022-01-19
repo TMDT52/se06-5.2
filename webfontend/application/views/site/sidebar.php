@@ -3,6 +3,7 @@
 	$price_from = isset($price_from)?$price_from:NULL;
 	$price_to = isset($price_to)?$price_to:NULL;
  ?>
+ 
 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 clearpaddingl">
 	<div class="panel panel-info" style="margin-bottom: 5px;">
 		<div class="panel-heading">

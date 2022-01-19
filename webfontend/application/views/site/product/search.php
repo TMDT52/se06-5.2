@@ -4,7 +4,6 @@
 		  <li><a href="<?php echo base_url(); ?>"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Trang chủ</a></li>
 		  <li class="active">Tìm kiếm sản phẩm</li>
 		</ol>
-
 		<div class="panel panel-info">
 		  <div class="panel-heading">
 		    <h3 class="panel-title">Kết quả tìm kiếm ( <?php echo $total; ?> sản phẩm)</h3>

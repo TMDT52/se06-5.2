@@ -1,5 +1,6 @@
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"><span class="badge"><?php echo $total_items ?></span></span> Giỏ Hàng<span class="caret"></span></a>
+  
   <ul class="dropdown-menu" style="min-width: 300px;">
     <?php 
     if($total_items > 0)

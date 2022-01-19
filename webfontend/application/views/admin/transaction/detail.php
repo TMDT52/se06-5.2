@@ -3,7 +3,7 @@
 		<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
 		<li class="active">Chi tiết đơn đặt hàng</li>
 	</ol>
-</div><!--/.row-->
+</div>
 
 <div class="row">
 	<div class="col-lg-12">

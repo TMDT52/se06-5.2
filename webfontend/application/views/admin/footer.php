@@ -13,7 +13,6 @@
 			});
 			$('#calendar').datepicker({
 			});
-
 			!function ($) {
 			    $(document).on("click","ul.nav li.parent > a > span.icon", function(){          
 			        $(this).find('em:first').toggleClass("glyphicon-minus");      

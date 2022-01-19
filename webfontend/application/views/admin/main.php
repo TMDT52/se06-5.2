@@ -5,6 +5,7 @@
 </head>
 
 <body>
+	
 	<?php $this->load->view('admin/style.php'); ?>
 	<?php $this->load->view('admin/header.php'); ?>
 	<?php $this->load->view('admin/sidebar.php'); ?>

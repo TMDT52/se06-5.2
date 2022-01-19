@@ -4,7 +4,6 @@
 		<li class="active">Danh mục</li>
 	</ol>
 </div><!--/.row-->
-
 <div class="row">
 	<div class="col-lg-12">
 		<div class="panel panel-info">

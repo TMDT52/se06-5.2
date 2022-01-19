@@ -10,7 +10,6 @@
 		width:70%;
 		height:70%;
 	}
-
 	.glyph.sm{width:30%;height:30%;}
 	.glyph.md{width:50%;height:50%;}
 	.glyph.lg{height:100%;width:100%;}

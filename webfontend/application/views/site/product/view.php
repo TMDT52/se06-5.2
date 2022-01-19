@@ -6,7 +6,6 @@
 		  <li><a href="<?php echo base_url('catalog/'.$catalog_product->id); ?>"><?php echo $catalog_product->name; ?></a></li>
 		  <li class="active"><?php echo $product->name; ?></li>
 		</ol>
-
 		<!-- zoom image -->
 		<script src="<?php echo public_url('js'); ?>/jqzoom_ev/js/jquery.jqzoom-core.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="<?php echo public_url('js'); ?>/jqzoom_ev/css/jquery.jqzoom.css" type="text/css">

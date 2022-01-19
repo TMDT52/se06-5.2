@@ -2,6 +2,7 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearpadding">
 						<ol class="breadcrumb">
 						  <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Trang chủ</a></li>
+						  
 						  <li class="active">Chi tiết giỏ hàng</li>
 						</ol>
 						<?php if (isset($message) && !empty($message)) { ?>
