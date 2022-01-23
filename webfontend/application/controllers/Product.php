@@ -112,6 +112,7 @@ class Product extends MY_Controller {
 		$this->load->view('site/layoutsub',$this->data);
 	}
 	
+	// sản phẩm hot
 	public function hot()
 	{
 		$input = array();
@@ -253,6 +254,7 @@ class Product extends MY_Controller {
 		$this->load->view('site/layoutsub',$this->data);
 	}
 	
+	// đánh giá sản phẩm
 	public function raty()
 	{
 
