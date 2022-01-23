@@ -4,7 +4,10 @@
 
 * Tất cả thành viên nhóm tìm hiểu về Khái niệm thương mại điện tử
 
+
+
 * Tìm hiểu và tham khảo các mã nguồn mở
+
 
 
 * Đặt ra mục tiêu của tuần thứ 2
