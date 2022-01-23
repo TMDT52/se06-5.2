@@ -138,6 +138,7 @@ class Product extends MY_Controller {
 		$this->load->view('site/layoutsub',$this->data);
 	}
 	
+	// sản phẩm được xem nhiều
 	public function views()
 	{
 		$input = array();
@@ -163,6 +164,7 @@ class Product extends MY_Controller {
 		$this->load->view('site/layoutsub',$this->data);
 	}
 	
+	// sản phẩm mới
 	public function news()
 	{
 		$input = array();
@@ -188,6 +190,7 @@ class Product extends MY_Controller {
 		$this->load->view('site/layoutsub',$this->data);
 	}
 	
+	// sản phẩm khuyến mại Tết
 	public function discount()
 	{
 		$input = array();
@@ -213,6 +216,7 @@ class Product extends MY_Controller {
 		$this->load->view('site/layoutsub',$this->data);
 	}
 	
+
 	public function search()
 	{
 		
