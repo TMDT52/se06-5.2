@@ -1,6 +1,6 @@
 <div class="row" style="margin-top: 8px;height: 110px">
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 clearpadding">
-				<a href="<?php echo base_url(); ?>"><img style="max-height: 110px;width: 80%" src="<?php echo base_url(); ?>upload/ilogo.png" alt="" class="img-responsive"></a>
+				<a href="<?php echo base_url(); ?>"><img style="max-height: 110px;width: 80%" src="<?php echo base_url(); ?>upload/vlogo.png" alt="" class="img-responsive"></a>
 			</div>
 			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 clearpadding">
 				<a href="<?php echo base_url('khuyen-mai'); ?>"><img style="max-height: 110px;width: 100%" src="<?php echo base_url(); ?>upload/banner.jpg" alt="" class="img-responsive"></a>
