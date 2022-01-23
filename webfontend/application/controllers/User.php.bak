@@ -88,7 +88,6 @@ class User extends MY_Controller {
 		}
 		$this->load->view('site/user/login',$this->data);
 	}
-	// *
 	public function check_login()
 	{
 		$user = $this->get_info_user();
