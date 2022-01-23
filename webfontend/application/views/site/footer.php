@@ -13,7 +13,7 @@
 				          <li> <a title="">Bảo vệ người mua</a></li>
 				          <li> <a title="">Quy định đối với người mua</a></li>
 				          <li> <a title="">Câu hỏi thường gặp</a></li>
-				          <li> <a href="#" title="">Hưỡng dẫn mua hàng Online</a></li> 
+				          <li> <a title="">Hưỡng dẫn mua hàng Online</a></li> 
 				           
 				      </div>
 				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
