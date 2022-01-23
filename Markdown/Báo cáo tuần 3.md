@@ -8,6 +8,4 @@
 
 * clone giao diện và tiến hành phân tích
 
-
-
 * Đặt ra mục tiêu của tuần thứ 4
