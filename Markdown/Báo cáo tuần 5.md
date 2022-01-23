@@ -2,7 +2,6 @@
 
 ## Gỡ các lỗi đang gặp phải và kiểm thử
 
-
 * thử nghiệm bị chập trờn trên các may khác nhau
 
 * Các chỉ số và lỗi còn nhiều đặc biệt phần sql 
