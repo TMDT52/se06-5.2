@@ -30,7 +30,6 @@
 ### e. Khởi chạy Apache và MySQL của Xampp. Truy cập vào đường dẫn "locahost/webshop/" để truy cập vào trang web bán hàng
 ### f. Tài khoản/mật khẩu để truy cập vào trang dành cho admin là: admin@gmail.com/1234
 
-
 # III. Công việc triển khai
 * Tìm hiểu về HTML và CSS cơ bản.
 * Tìm hiểu về Boostrap cơ bản.
