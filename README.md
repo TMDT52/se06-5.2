@@ -29,7 +29,6 @@
 
 
 
-
 # III. Công việc triển khai
 * Tìm hiểu về HTML và CSS cơ bản.
 * Tìm hiểu về Boostrap cơ bản.
