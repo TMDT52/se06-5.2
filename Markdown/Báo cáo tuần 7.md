@@ -2,7 +2,6 @@
 
 ## Thêm chức năng mới 
 
-
 * Thêm phần giao diện 
 
 * chỉnh sửa data
