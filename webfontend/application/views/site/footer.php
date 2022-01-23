@@ -20,7 +20,7 @@
 				        <a href="" title=""><strong>DÀNH CHO NGƯỜI BÁN</strong></a>                
 				          <li> <a title="">Liên kết với shop chúng tôi</a></li> 
 				          <li> <a title="">Quy định đối với người bán</a></li> 
-				          <li> <a href="#" title="">Chính sách bán hàng</a></li> 
+				          <li> <a title="">Chính sách bán hàng</a></li> 
 				      </div>
 				    </div>
 				</div>
