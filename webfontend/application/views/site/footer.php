@@ -18,7 +18,7 @@
 				      </div>
 				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				        <a href="" title=""><strong>DÀNH CHO NGƯỜI BÁN</strong></a>                
-				          <li> <a href="#" title="">Liên kết với shop chúng tôi</a></li> 
+				          <li> <a title="">Liên kết với shop chúng tôi</a></li> 
 				          <li> <a href="#" title="">Quy định đối với người bán</a></li> 
 				          <li> <a href="#" title="">Chính sách bán hàng</a></li> 
 				      </div>
