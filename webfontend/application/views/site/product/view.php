@@ -6,6 +6,7 @@
 		  <li><a href="<?php echo base_url('catalog/'.$catalog_product->id); ?>"><?php echo $catalog_product->name; ?></a></li>
 		  <li class="active"><?php echo $product->name; ?></li>
 		</ol>
+
 		<!-- zoom image -->
 		<script src="<?php echo public_url('js'); ?>/jqzoom_ev/js/jquery.jqzoom-core.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="<?php echo public_url('js'); ?>/jqzoom_ev/css/jquery.jqzoom.css" type="text/css">
@@ -136,7 +137,7 @@
 			  				<?php }else{ ?>
 								<p><span class='price text-right'><?php echo number_format($value->price); ?> VNĐ</span></p>
 			  				<?php	} ?>
-							<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua"><?php echo $value->buyed; ?></p>
+							<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượt đánh giá"><?php echo $value->rate_count; ?></p>
 							<a href="<?php echo base_url('cart/add/'.$value->id); ?>"><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
 			  			</div>
 					</div>
@@ -167,7 +168,7 @@
 			  				<?php }else{ ?>
 								<p><span class='price text-right'><?php echo number_format($value->price); ?> VNĐ</span></p>
 			  				<?php	} ?>
-							<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua"><?php echo $value->buyed; ?></p>
+							<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượt đánh giá"><?php echo $value->rate_count; ?></p>
 							<a href="<?php echo base_url('cart/add/'.$value->id); ?>"><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
 			  			</div>
 					</div>

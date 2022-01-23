@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 	<?php $this->load->view('site/head',$this->data); ?>
 </head>
 <body>
-	
 	<div class="container">
 		<?php $this->load->view('site/header',$this->data); ?>
 
@@ -26,27 +26,27 @@
 				  <div class="panel-body">
 				  	<form class="form-horizontal" method="post" action="<?php echo base_url('user/register'); ?>">
 					  <div class="form-group">
-					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Họ tên</label>
+					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Họ tên    <i name="" class="far fa-user"></i> </label>
 					    <div class="col-sm-4">
-					      <input type="text" class="form-control" id="inputEmail3" placeholder="" name="name" value="<?php echo set_value('name'); ?>">
+					      <input type="text" class="form-control" id="inputEmail3" placeholder="Nhập họ và tên" name="name" value="<?php echo set_value('name'); ?>">
 					    </div>
 					    <div class="col-sm-3">
 				    	<?php echo form_error('name'); ?>
 					</div>
 					  </div>
 					  <div class="form-group">
-					    <label for="inputEmail3" class=" col-sm-offset-2 col-sm-2 control-label">Email</label>
+					    <label for="inputEmail3" class=" col-sm-offset-2 col-sm-2 control-label">Email   <i class="fas fa-envelope-square"></i></label>
 					    <div class="col-sm-4">
-					      <input type="email" class="form-control" id="inputEmail3" placeholder="" name="email" value="<?php echo set_value('email'); ?>">
+					      <input type="email" class="form-control" id="inputEmail3" placeholder="Nhập email đăng ký" name="email" value="<?php echo set_value('email'); ?>">
 					    </div>
 					    <div class="col-sm-3">
 				    	<?php echo form_error('email'); ?>
 					</div>
 					  </div>
 					  <div class="form-group">
-					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Mật khẩu</label>
-					    <div class="col-sm-4">
-					      <input type="password" class="form-control" id="inputEmail3" placeholder="" name="password">
+					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Mật khẩu   <i name="" class="far fa-key"></i></label>
+					    <div class="col-sm-4"> 
+					      <input type="password" class="form-control" id="inputEmail3" placeholder="Nhập mật khẩu" name="password">
 					    </div>
 					    <div class="col-sm-3">
 				    	<?php echo form_error('password'); ?>
@@ -55,25 +55,25 @@
 					  <div class="form-group">
 					    <label for="inputEmail3" class=" col-sm-offset-2 col-sm-2 control-label">Nhập lại mật khẩu</label>
 					    <div class="col-sm-4">
-					      <input type="password" class="form-control" id="inputEmail3" placeholder="" name="re_password">
+					      <input type="password" class="form-control" id="inputEmail3" placeholder="Xác nhận mật khẩu" name="re_password">
 					    </div>
 					    <div class="col-sm-3">
 				    	<?php echo form_error('re_password'); ?>
 					</div>
 					  </div>
 					  <div class="form-group">
-					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Địa chỉ</label>
+					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Địa chỉ    <i name="" class="far fa-address-card"></i></label>
 					    <div class="col-sm-4">
-					      <input type="text" class="form-control" id="inputEmail3" placeholder="" name="address" value="<?php echo set_value('address'); ?>">
+					      <input type="text" class="form-control" id="inputEmail3" placeholder="Nhập địa chỉ cụ thể" name="address" value="<?php echo set_value('address'); ?>">
 					    </div>
 					    <div class="col-sm-3">
 				    	<?php echo form_error('address'); ?>
 					</div>
 					  </div>
 					  <div class="form-group">
-					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Số điện thoại</label>
+					    <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Số điện thoại    <i name="" class="far fa-phone"></i></label>
 					    <div class="col-sm-4">
-					      <input type="text" class="form-control" id="inputEmail3" placeholder="" name="phone" value="<?php echo set_value('phone'); ?>">
+					      <input type="text" class="form-control" id="inputEmail3" placeholder="Nhập số điện thoại" name="phone" value="<?php echo set_value('phone'); ?>">
 					    </div>
 					    <div class="col-sm-3">
 				    	<?php echo form_error('phone'); ?>
