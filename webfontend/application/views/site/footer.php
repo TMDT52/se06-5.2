@@ -10,7 +10,7 @@
 				      </div>
 				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				        <a href="" title=""><strong>DÀNH CHO NGƯỜI MUA</strong></a>
-				          <li> <a href="#" title="">Bảo vệ người mua</a></li>
+				          <li> <a title="">Bảo vệ người mua</a></li>
 				          <li> <a href="#" title="">Quy định đối với người mua</a></li>
 				          <li> <a href="#" title="">Câu hỏi thường gặp</a></li>
 				          <li> <a href="#" title="">Hưỡng dẫn mua hàng Online</a></li> 
